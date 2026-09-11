@@ -32,13 +32,13 @@ There is no test suite configured yet.
 
 Stack: Next.js (App Router) + TypeScript + Tailwind CSS + [next-intl](https://next-intl.dev) for i18n.
 
-**Locale routing.** Every route lives under `src/app/[locale]/`. `src/proxy.ts` (Next.js's middleware convention, renamed from `middleware.ts`) runs `next-intl`'s `createMiddleware` to detect/redirect locales. Supported locales and the default locale are defined in one place: `src/i18n/routing.ts` (currently `en`, `es`; default `en`). Adding a locale means adding it there and creating a matching `messages/<locale>.json`.
+**Locale routing.** Every route lives under `src/app/[locale]/`. `src/proxy.ts` (Next.js's middleware convention, renamed from `middleware.ts`) runs `next-intl`'s `createMiddleware` to detect/redirect locales. Supported locales and the default locale are defined in one place: `src/i18n/routing.ts` (currently `en`, `de`; default `en`). Adding a locale means adding it there and creating a matching `messages/<locale>.json`.
 
-**Translations.** Copy lives in `messages/en.json` / `messages/es.json`, namespaced by page/section (`Metadata`, `Nav`, `Footer`, `Home`, `Services`, `CaseStudies`, `About`, `Contact`, `LocaleSwitcher`). `src/i18n/request.ts` loads the right file per request based on the resolved locale.
+**Translations.** Copy lives in `messages/en.json` / `messages/de.json`, namespaced by page/section (`Metadata`, `Nav`, `Footer`, `Home`, `Services`, `CaseStudies`, `About`, `Contact`, `LocaleSwitcher`). `src/i18n/request.ts` loads the right file per request based on the resolved locale.
 
 **Server vs. client translation hooks — this is the main gotcha.** Page components under `src/app/[locale]/**/page.tsx` are `async` Server Components and must use `await getTranslations(...)` from `next-intl/server`. Calling the synchronous `useTranslations` (from `next-intl`) inside an async component throws at build/prerender time. Non-async server components (`Header`, `Footer`) and Client Components (`ContactForm`, `LocaleSwitcher`, both `"use client"`) use `useTranslations` directly instead.
 
-**Static generation.** Every page and the locale layout export `generateStaticParams` returning `routing.locales`, and call `setRequestLocale(locale)` before rendering, so all locale variants prerender as static HTML (`npm run build` output shows `● /en/...`, `● /es/...`).
+**Static generation.** Every page and the locale layout export `generateStaticParams` returning `routing.locales`, and call `setRequestLocale(locale)` before rendering, so all locale variants prerender as static HTML (`npm run build` output shows `● /en/...`, `● /de/...`).
 
 **Navigation.** Use `Link`, `useRouter`, `usePathname` from `src/i18n/navigation.ts` (wraps next-intl's `createNavigation`) instead of `next/link` / `next/navigation`, so the current locale prefix is preserved automatically. `LocaleSwitcher.tsx` shows the pattern for changing locale while staying on the same route.
 

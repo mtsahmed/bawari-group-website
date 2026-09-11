@@ -24,7 +24,7 @@ International ecommerce businesses (store owners, brand managers, marketing lead
 ## Tech Stack
 - **Framework:** Next.js (App Router) + TypeScript
 - **Styling:** Tailwind CSS
-- **i18n:** next-intl (locale-based routing, e.g. `/en`, `/es`, `/fr`)
+- **i18n:** next-intl (locale-based routing: `/en`, `/de`)
 - **Deployment target:** Vercel (TBD — confirm with user)
 
 ## Site Structure (initial)
@@ -36,21 +36,21 @@ International ecommerce businesses (store owners, brand managers, marketing lead
 
 ## Internationalization
 - Locale-prefixed routing (`/[locale]/...`)
-- Default locale: English (`en`)
+- Default locale: English (`en`); second locale: German (`de`)
 - Additional locales to be added as needed (structure supports adding more without rearchitecting)
 - All user-facing copy lives in locale message files, not hardcoded in components
 
 ## Status
 - [x] Project scaffolded (Next.js + TypeScript + Tailwind + i18n)
+- [x] Second locale decided (German)
 - [ ] Service offerings finalized with client
 - [ ] Branding / design direction
 - [ ] Content for all pages
 - [ ] Contact form backend (email delivery / CRM integration)
-- [ ] Additional locales beyond English
+- [ ] Additional locales beyond English/German
 - [ ] Deployment
 
 ## Open Questions
-- Which languages besides English are required, and in what priority?
 - Final list of services to feature?
 - Any existing brand guidelines (logo, colors, fonts)?
 - Where will the contact form submissions go (email, CRM, Slack)?

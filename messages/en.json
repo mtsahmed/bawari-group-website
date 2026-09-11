@@ -5,7 +5,7 @@
   },
   "LocaleSwitcher": {
     "label": "Language",
-    "locale": "{locale, select, en {English} es {Español} other {Unknown}}"
+    "locale": "{locale, select, en {English} de {Deutsch} other {Unknown}}"
   },
   "Nav": {
     "brand": "EcommerceServices",

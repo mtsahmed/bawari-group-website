@@ -1,0 +1,82 @@
+{
+  "Metadata": {
+    "title": "EcommerceServices — Wachstumspartner für Ecommerce",
+    "description": "Wir helfen internationalen Ecommerce-Marken, ihre Online-Shops zu starten, zu wachsen und zu skalieren."
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache",
+    "locale": "{locale, select, en {English} de {Deutsch} other {Unbekannt}}"
+  },
+  "Nav": {
+    "brand": "EcommerceServices",
+    "home": "Startseite",
+    "services": "Leistungen",
+    "caseStudies": "Fallstudien",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "cta": "Kontakt aufnehmen"
+  },
+  "Footer": {
+    "copyright": "© {year} EcommerceServices. Alle Rechte vorbehalten."
+  },
+  "Home": {
+    "heroEyebrow": "Ecommerce-Leistungen für internationale Marken",
+    "heroTitle": "Wir helfen Ecommerce-Unternehmen, zu starten, zu wachsen und zu skalieren.",
+    "heroSubtitle": "Vom Shop-Aufbau bis zum kontinuierlichen Wachstum — wir sind der Partner internationaler Ecommerce-Marken für Online-Shops, die konvertieren.",
+    "heroCtaPrimary": "Beratungstermin buchen",
+    "heroCtaSecondary": "Unsere Leistungen ansehen",
+    "servicesTitle": "Was wir tun",
+    "servicesSubtitle": "Ein fokussiertes Leistungsangebot für wachsende Ecommerce-Marken.",
+    "servicesCtaLabel": "Alle Leistungen ansehen",
+    "whyTitle": "Warum mit uns arbeiten",
+    "why": [
+      { "title": "Globale Erfahrung", "description": "Wir haben Ecommerce-Kunden in verschiedenen Regionen, Währungen und Sprachen unterstützt." },
+      { "title": "Ganzheitliche Betreuung", "description": "Von der Strategie über die Umsetzung bis zur laufenden Optimierung bleiben wir eingebunden." },
+      { "title": "Datenbasierte Entscheidungen", "description": "Jede Empfehlung basiert auf Leistungsdaten, nicht auf Vermutungen." }
+    ],
+    "ctaBannerTitle": "Bereit, Ihr Ecommerce-Geschäft auszubauen?",
+    "ctaBannerSubtitle": "Erzählen Sie uns von Ihrem Shop und Ihren Zielen — wir melden uns innerhalb eines Werktages.",
+    "ctaBannerButton": "Kontakt aufnehmen"
+  },
+  "Services": {
+    "eyebrow": "Leistungen",
+    "title": "Leistungen für Ecommerce-Marken",
+    "subtitle": "Wählen Sie eine einzelne Leistung oder ein Komplettpaket — wir passen den Umfang an die Bedürfnisse Ihres Shops an.",
+    "items": [
+      { "title": "Shop-Einrichtung & Migration", "description": "Starten Sie einen neuen Shop oder migrieren Sie einen bestehenden auf eine moderne Ecommerce-Plattform mit minimaler Ausfallzeit." },
+      { "title": "Plattformentwicklung", "description": "Individuelle Shop-Entwicklung und Integrationen auf Shopify, WooCommerce und Headless-Architekturen." },
+      { "title": "Digitales Marketing & Wachstum", "description": "Bezahlte, organische und lifecycle-basierte Marketingprogramme für mehr qualifizierten Traffic und Wiederholungskäufe." },
+      { "title": "Conversion-Optimierung", "description": "UX-Audits, A/B-Tests und Checkout-Optimierung, um mehr Besucher in Kunden zu verwandeln." },
+      { "title": "Laufender Support & Wartung", "description": "Zuverlässiger, reaktionsschneller Support, damit Ihr Shop schnell, sicher und aktuell bleibt." }
+    ]
+  },
+  "CaseStudies": {
+    "eyebrow": "Fallstudien",
+    "title": "Ergebnisse für unsere Kunden",
+    "subtitle": "Eine Auswahl an Projekten — Details werden ergänzt, sobald Fallstudien veröffentlicht werden.",
+    "comingSoonTitle": "Fallstudien folgen in Kürze",
+    "comingSoonBody": "Wir sammeln gerade Ergebnisse und Erfahrungsberichte aus laufenden Projekten. Schauen Sie bald wieder vorbei oder kontaktieren Sie uns für Referenzen."
+  },
+  "About": {
+    "eyebrow": "Über uns",
+    "title": "Ein Ecommerce-Partner für internationale Marken",
+    "body1": "Wir sind ein Serviceteam, das sich ausschließlich auf Ecommerce konzentriert. Wir arbeiten mit Marken auf der ganzen Welt zusammen, um neue Shops zu starten, bestehende zu modernisieren und nachhaltiges Wachstum voranzutreiben.",
+    "body2": "Unser Team vereint Plattform-Engineering, Design und Marketing-Expertise, sodass Kunden einen verantwortlichen Partner haben, statt mehrere Anbieter koordinieren zu müssen.",
+    "missionTitle": "Unsere Mission",
+    "missionBody": "Erstklassige Ecommerce-Fähigkeiten für wachsende internationale Marken zugänglich zu machen."
+  },
+  "Contact": {
+    "eyebrow": "Kontakt",
+    "title": "Lassen Sie uns über Ihren Shop sprechen",
+    "subtitle": "Füllen Sie das Formular aus, und unser Team meldet sich innerhalb eines Werktages bei Ihnen.",
+    "nameLabel": "Vollständiger Name",
+    "emailLabel": "E-Mail",
+    "companyLabel": "Unternehmen",
+    "messageLabel": "Wie können wir helfen?",
+    "submit": "Nachricht senden",
+    "submitting": "Wird gesendet...",
+    "successTitle": "Danke — wir haben Ihre Nachricht erhalten.",
+    "successBody": "Wir melden uns innerhalb eines Werktages bei Ihnen.",
+    "formNote": "Dieses Formular ist noch nicht mit einem E-Mail-/CRM-System verbunden — Einsendungen werden nicht zugestellt."
+  }
+}
