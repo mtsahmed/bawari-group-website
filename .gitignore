@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# raw client-provided files staged for use on the site (not final assets)
+/brand-assets/*/*
+!/brand-assets/*/.gitkeep
