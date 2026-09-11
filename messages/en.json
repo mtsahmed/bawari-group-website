@@ -1,0 +1,82 @@
+{
+  "Metadata": {
+    "title": "EcommerceServices — Ecommerce Growth Partner",
+    "description": "We help international ecommerce brands launch, grow, and scale their online stores."
+  },
+  "LocaleSwitcher": {
+    "label": "Language",
+    "locale": "{locale, select, en {English} es {Español} other {Unknown}}"
+  },
+  "Nav": {
+    "brand": "EcommerceServices",
+    "home": "Home",
+    "services": "Services",
+    "caseStudies": "Case Studies",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get in touch"
+  },
+  "Footer": {
+    "copyright": "© {year} EcommerceServices. All rights reserved."
+  },
+  "Home": {
+    "heroEyebrow": "Ecommerce services for international brands",
+    "heroTitle": "We help ecommerce businesses launch, grow, and scale.",
+    "heroSubtitle": "From store setup to ongoing growth, we partner with international ecommerce brands to build online stores that convert.",
+    "heroCtaPrimary": "Book a consultation",
+    "heroCtaSecondary": "View our services",
+    "servicesTitle": "What we do",
+    "servicesSubtitle": "A focused set of services built for growing ecommerce brands.",
+    "servicesCtaLabel": "See all services",
+    "whyTitle": "Why work with us",
+    "why": [
+      { "title": "Global experience", "description": "We've supported ecommerce clients across multiple regions, currencies, and languages." },
+      { "title": "End-to-end support", "description": "From strategy to execution to ongoing optimization, we stay involved." },
+      { "title": "Data-informed decisions", "description": "Every recommendation is grounded in performance data, not guesswork." }
+    ],
+    "ctaBannerTitle": "Ready to grow your ecommerce business?",
+    "ctaBannerSubtitle": "Tell us about your store and goals — we'll get back to you within one business day.",
+    "ctaBannerButton": "Contact us"
+  },
+  "Services": {
+    "eyebrow": "Services",
+    "title": "Services built for ecommerce brands",
+    "subtitle": "Choose a single service or a full engagement — we tailor scope to what your store needs.",
+    "items": [
+      { "title": "Store setup & migration", "description": "Launch a new store or migrate an existing one to a modern ecommerce platform with minimal downtime." },
+      { "title": "Platform development", "description": "Custom storefront development and integrations on Shopify, WooCommerce, and headless stacks." },
+      { "title": "Digital marketing & growth", "description": "Paid, organic, and lifecycle marketing programs designed to grow qualified traffic and repeat purchases." },
+      { "title": "Conversion rate optimization", "description": "UX audits, A/B testing, and checkout optimization to turn more visitors into customers." },
+      { "title": "Ongoing support & maintenance", "description": "Reliable, responsive support to keep your store fast, secure, and up to date." }
+    ]
+  },
+  "CaseStudies": {
+    "eyebrow": "Case studies",
+    "title": "Results for our clients",
+    "subtitle": "A selection of engagements — details to be added as case studies are published.",
+    "comingSoonTitle": "Case studies coming soon",
+    "comingSoonBody": "We're gathering results and testimonials from current engagements. Check back soon, or contact us for references."
+  },
+  "About": {
+    "eyebrow": "About us",
+    "title": "An ecommerce partner for international brands",
+    "body1": "We are a services team focused exclusively on ecommerce. We work with brands around the world to launch new stores, modernize existing ones, and drive sustainable growth.",
+    "body2": "Our team combines platform engineering, design, and marketing expertise so clients get one accountable partner instead of juggling multiple vendors.",
+    "missionTitle": "Our mission",
+    "missionBody": "To make world-class ecommerce capability accessible to growing international brands."
+  },
+  "Contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your store",
+    "subtitle": "Fill out the form and our team will get back to you within one business day.",
+    "nameLabel": "Full name",
+    "emailLabel": "Email",
+    "companyLabel": "Company",
+    "messageLabel": "How can we help?",
+    "submit": "Send message",
+    "submitting": "Sending...",
+    "successTitle": "Thanks — we've received your message.",
+    "successBody": "We'll be in touch within one business day.",
+    "formNote": "This form isn't connected to an email/CRM backend yet — submissions are not delivered."
+  }
+}

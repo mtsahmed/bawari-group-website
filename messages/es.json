@@ -1,0 +1,82 @@
+{
+  "Metadata": {
+    "title": "EcommerceServices — Socio de crecimiento para ecommerce",
+    "description": "Ayudamos a marcas de ecommerce internacionales a lanzar, crecer y escalar sus tiendas online."
+  },
+  "LocaleSwitcher": {
+    "label": "Idioma",
+    "locale": "{locale, select, en {English} es {Español} other {Desconocido}}"
+  },
+  "Nav": {
+    "brand": "EcommerceServices",
+    "home": "Inicio",
+    "services": "Servicios",
+    "caseStudies": "Casos de éxito",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "cta": "Contáctanos"
+  },
+  "Footer": {
+    "copyright": "© {year} EcommerceServices. Todos los derechos reservados."
+  },
+  "Home": {
+    "heroEyebrow": "Servicios de ecommerce para marcas internacionales",
+    "heroTitle": "Ayudamos a negocios de ecommerce a lanzar, crecer y escalar.",
+    "heroSubtitle": "Desde la creación de la tienda hasta el crecimiento continuo, somos el socio de marcas de ecommerce internacionales para construir tiendas online que convierten.",
+    "heroCtaPrimary": "Reserva una consulta",
+    "heroCtaSecondary": "Ver nuestros servicios",
+    "servicesTitle": "Qué hacemos",
+    "servicesSubtitle": "Un conjunto enfocado de servicios para marcas de ecommerce en crecimiento.",
+    "servicesCtaLabel": "Ver todos los servicios",
+    "whyTitle": "Por qué trabajar con nosotros",
+    "why": [
+      { "title": "Experiencia global", "description": "Hemos apoyado a clientes de ecommerce en múltiples regiones, monedas e idiomas." },
+      { "title": "Acompañamiento integral", "description": "Desde la estrategia hasta la ejecución y la optimización continua, seguimos involucrados." },
+      { "title": "Decisiones basadas en datos", "description": "Cada recomendación se basa en datos de desempeño, no en suposiciones." }
+    ],
+    "ctaBannerTitle": "¿Listo para hacer crecer tu negocio de ecommerce?",
+    "ctaBannerSubtitle": "Cuéntanos sobre tu tienda y tus objetivos — te responderemos dentro de un día hábil.",
+    "ctaBannerButton": "Contáctanos"
+  },
+  "Services": {
+    "eyebrow": "Servicios",
+    "title": "Servicios diseñados para marcas de ecommerce",
+    "subtitle": "Elige un servicio puntual o un proyecto integral — adaptamos el alcance a lo que tu tienda necesita.",
+    "items": [
+      { "title": "Configuración y migración de tienda", "description": "Lanza una nueva tienda o migra una existente a una plataforma de ecommerce moderna con el mínimo tiempo de inactividad." },
+      { "title": "Desarrollo de plataforma", "description": "Desarrollo de tienda a medida e integraciones en Shopify, WooCommerce y arquitecturas headless." },
+      { "title": "Marketing digital y crecimiento", "description": "Programas de marketing pago, orgánico y de fidelización diseñados para aumentar tráfico calificado y compras repetidas." },
+      { "title": "Optimización de conversión", "description": "Auditorías de UX, pruebas A/B y optimización del checkout para convertir más visitantes en clientes." },
+      { "title": "Soporte y mantenimiento continuo", "description": "Soporte confiable y ágil para mantener tu tienda rápida, segura y actualizada." }
+    ]
+  },
+  "CaseStudies": {
+    "eyebrow": "Casos de éxito",
+    "title": "Resultados para nuestros clientes",
+    "subtitle": "Una selección de proyectos — los detalles se agregarán a medida que se publiquen los casos de éxito.",
+    "comingSoonTitle": "Casos de éxito próximamente",
+    "comingSoonBody": "Estamos recopilando resultados y testimonios de proyectos actuales. Vuelve pronto o contáctanos para referencias."
+  },
+  "About": {
+    "eyebrow": "Nosotros",
+    "title": "Un socio de ecommerce para marcas internacionales",
+    "body1": "Somos un equipo de servicios enfocado exclusivamente en ecommerce. Trabajamos con marcas de todo el mundo para lanzar nuevas tiendas, modernizar las existentes e impulsar un crecimiento sostenible.",
+    "body2": "Nuestro equipo combina ingeniería de plataformas, diseño y experiencia en marketing para que los clientes tengan un solo socio responsable en lugar de gestionar múltiples proveedores.",
+    "missionTitle": "Nuestra misión",
+    "missionBody": "Hacer que capacidades de ecommerce de primer nivel sean accesibles para marcas internacionales en crecimiento."
+  },
+  "Contact": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos sobre tu tienda",
+    "subtitle": "Completa el formulario y nuestro equipo te responderá dentro de un día hábil.",
+    "nameLabel": "Nombre completo",
+    "emailLabel": "Correo electrónico",
+    "companyLabel": "Empresa",
+    "messageLabel": "¿Cómo podemos ayudarte?",
+    "submit": "Enviar mensaje",
+    "submitting": "Enviando...",
+    "successTitle": "Gracias — hemos recibido tu mensaje.",
+    "successBody": "Nos pondremos en contacto dentro de un día hábil.",
+    "formNote": "Este formulario aún no está conectado a un sistema de correo/CRM — los envíos no se entregan."
+  }
+}
