@@ -2,25 +2,34 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #232b2c;
+
+  /* Bawari Group brand palette — Brand Guidelines v1.0, Sept 2026 */
+  --brand-charcoal: #232b2c; /* Charcoal Ink — primary shield fill */
+  --brand-charcoal-light: #343b3c; /* Charcoal Slate — secondary shield tone */
+  --brand-gold: #c99a50; /* Heritage Gold — primary accent */
+  --brand-gold-dark: #a4793b; /* Antique Gold — secondary accent */
+  --brand-cream: #fffeef; /* Parchment Cream — wordmark only, needs a dark field */
+  --brand-neutral: #f3f2ee; /* Soft Neutral — UI cards, light-theme surfaces */
+  --brand-dark-start: #262a30; /* Premium Dark gradient start */
+  --brand-dark-end: #0f1114; /* Premium Dark gradient end */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-brand-charcoal: var(--brand-charcoal);
+  --color-brand-charcoal-light: var(--brand-charcoal-light);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-gold-dark: var(--brand-gold-dark);
+  --color-brand-cream: var(--brand-cream);
+  --color-brand-neutral: var(--brand-neutral);
+  --font-serif: var(--font-eb-garamond);
+  --font-sans: var(--font-montserrat);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
 }

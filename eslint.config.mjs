@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Client-provided files staged for use on the site, not app source.
+    "brand-assets/**",
   ]),
 ]);
 

@@ -14,7 +14,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A multi-language services/marketing website for an agency serving international ecommerce clients (store setup, platform development, marketing, CRO, support). It is **not** an online store — no product catalog, cart, or checkout. See `PROJECT.md` for the full project brief and open questions.
+The public website for **Bawari Group**, a Berlin/Hamburg-based importer and distributor of premium Pakistani basmati rice for the German market (diaspora, mainstream retail, food service/HORECA, private label). It is currently a **marketing/trade site only** — no cart, checkout, or payments. See `PROJECT.md` for the full business/brand brief and open questions. Brand source material (guidelines PDF, business profile, logos) lives in `brand-assets/` — treat the Strategic Business Profile's "TO COMPLETE" items (leadership roles, addresses, named suppliers) as unconfirmed and keep them off the public site.
 
 ## Commands
 
@@ -34,7 +34,7 @@ Stack: Next.js (App Router) + TypeScript + Tailwind CSS + [next-intl](https://ne
 
 **Locale routing.** Every route lives under `src/app/[locale]/`. `src/proxy.ts` (Next.js's middleware convention, renamed from `middleware.ts`) runs `next-intl`'s `createMiddleware` to detect/redirect locales. Supported locales and the default locale are defined in one place: `src/i18n/routing.ts` (currently `en`, `de`; default `en`). Adding a locale means adding it there and creating a matching `messages/<locale>.json`.
 
-**Translations.** Copy lives in `messages/en.json` / `messages/de.json`, namespaced by page/section (`Metadata`, `Nav`, `Footer`, `Home`, `Services`, `CaseStudies`, `About`, `Contact`, `LocaleSwitcher`). `src/i18n/request.ts` loads the right file per request based on the resolved locale.
+**Translations.** Copy lives in `messages/en.json` / `messages/de.json`, namespaced by page/section (`Metadata`, `Nav`, `Footer`, `Home`, `Products`, `Quality`, `About`, `Contact`, `LocaleSwitcher`). `src/i18n/request.ts` loads the right file per request based on the resolved locale.
 
 **Server vs. client translation hooks — this is the main gotcha.** Page components under `src/app/[locale]/**/page.tsx` are `async` Server Components and must use `await getTranslations(...)` from `next-intl/server`. Calling the synchronous `useTranslations` (from `next-intl`) inside an async component throws at build/prerender time. Non-async server components (`Header`, `Footer`) and Client Components (`ContactForm`, `LocaleSwitcher`, both `"use client"`) use `useTranslations` directly instead.
 
@@ -45,3 +45,5 @@ Stack: Next.js (App Router) + TypeScript + Tailwind CSS + [next-intl](https://ne
 **Config.** `next.config.ts` wraps `nextConfig` with next-intl's plugin pointed at `src/i18n/request.ts`, and pins `turbopack.root` to the project directory (there's an unrelated `package-lock.json` in the parent home directory that otherwise confuses Turbopack's workspace-root inference).
 
 **Contact form.** `src/components/ContactForm.tsx` is client-side only and not wired to any backend/email/CRM yet — see the open questions in `PROJECT.md`.
+
+**Brand.** Colors (`brand-charcoal`, `brand-gold`, `brand-gold-dark`, `brand-cream`, `brand-neutral`, etc.) are defined as CSS variables in `src/app/globals.css` and exposed as Tailwind utilities via `@theme inline` — use these tokens rather than raw gray/black Tailwind classes. Headings use `font-serif` (EB Garamond); body text uses the default `font-sans` (Montserrat), both loaded in `src/app/[locale]/layout.tsx`. The crest logo lives at `public/brand/bawari-crest.png`; `src/app/icon.png` and `src/app/apple-icon.png` are square crops generated from it (Next.js App Router auto-detects these as favicon/app-icon — no `favicon.ico`).

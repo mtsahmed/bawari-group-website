@@ -1,77 +1,124 @@
 {
   "Metadata": {
-    "title": "EcommerceServices — Ecommerce Growth Partner",
-    "description": "We help international ecommerce brands launch, grow, and scale their online stores."
+    "title": "Bawari Group — Premium Pakistani Basmati Rice for Germany",
+    "description": "Bawari Group imports and distributes premium Pakistani basmati rice for Germany's diaspora, retail, and food-service markets — compliance-first, from Karachi to German shelf."
   },
   "LocaleSwitcher": {
     "label": "Language",
     "locale": "{locale, select, en {English} de {Deutsch} other {Unknown}}"
   },
   "Nav": {
-    "brand": "EcommerceServices",
+    "brand": "Bawari Group",
     "home": "Home",
-    "services": "Services",
-    "caseStudies": "Case Studies",
+    "products": "Products",
+    "quality": "Quality",
     "about": "About",
     "contact": "Contact",
-    "cta": "Get in touch"
+    "cta": "Get in Touch"
   },
   "Footer": {
-    "copyright": "© {year} EcommerceServices. All rights reserved."
+    "tagline": "Premium Pakistani basmati rice, imported for Germany.",
+    "copyright": "© {year} Bawari Group. All rights reserved."
   },
   "Home": {
-    "heroEyebrow": "Ecommerce services for international brands",
-    "heroTitle": "We help ecommerce businesses launch, grow, and scale.",
-    "heroSubtitle": "From store setup to ongoing growth, we partner with international ecommerce brands to build online stores that convert.",
-    "heroCtaPrimary": "Book a consultation",
-    "heroCtaSecondary": "View our services",
-    "servicesTitle": "What we do",
-    "servicesSubtitle": "A focused set of services built for growing ecommerce brands.",
-    "servicesCtaLabel": "See all services",
-    "whyTitle": "Why work with us",
-    "why": [
-      { "title": "Global experience", "description": "We've supported ecommerce clients across multiple regions, currencies, and languages." },
-      { "title": "End-to-end support", "description": "From strategy to execution to ongoing optimization, we stay involved." },
-      { "title": "Data-informed decisions", "description": "Every recommendation is grounded in performance data, not guesswork." }
+    "heroEyebrow": "Premium Pakistani Basmati, Imported for Germany",
+    "heroTitle": "A heritage crest for a modern trading house.",
+    "heroSubtitle": "Bawari Group imports and distributes premium Pakistani basmati rice, connecting Pakistan's rice belt to Germany's diaspora, retail, and food-service markets — with compliance built in from the start.",
+    "heroCtaPrimary": "Get in Touch",
+    "heroCtaSecondary": "Explore Our Rice",
+    "modelTitle": "A Two-City Operating Model",
+    "modelSubtitle": "Berlin for commercial leadership, Hamburg for logistics — a shorter, more controllable path from Karachi port to German shelf.",
+    "cities": [
+      { "title": "Berlin", "role": "Commercial Headquarters", "description": "Brand, partnerships, sales leadership, and national account management, based in Germany's capital." },
+      { "title": "Hamburg", "role": "Logistics & Import Operations", "description": "Direct proximity to the Port of Hamburg — Germany's largest seaport and Northern Europe's leading hub for agricultural bulk cargo." }
     ],
-    "ctaBannerTitle": "Ready to grow your ecommerce business?",
-    "ctaBannerSubtitle": "Tell us about your store and goals — we'll get back to you within one business day.",
-    "ctaBannerButton": "Contact us"
+    "segmentsTitle": "Who We Serve",
+    "segmentsSubtitle": "From independent diaspora grocers to national retail, we serve the channels that move rice in Germany.",
+    "segments": [
+      { "title": "Diaspora & Specialty Grocers", "description": "Independent Afghan, South Asian, Middle Eastern, and Turkish grocers across Berlin, Hamburg, Frankfurt, and the Rhine-Ruhr corridor." },
+      { "title": "Food Service & HORECA", "description": "Restaurants, caterers, and cloud kitchens that value volume, consistency, and reliable supply." },
+      { "title": "Wholesale & Cash-and-Carry", "description": "The standard route into food service and independent retail across Germany." },
+      { "title": "Retail & Private Label", "description": "Mainstream and regional retailers seeking branded or private-label rice supply." }
+    ],
+    "networkCaption": "Six channels radiating from one heritage brand. Reference diagram (English).",
+    "qualityTitle": "Compliance-First, From Karachi to Shelf",
+    "qualitySubtitle": "EU food-safety rules on rice from South Asia are strict. Our QA programme is built around exactly what border control checks — not a generic pesticide panel.",
+    "qualityCtaLabel": "See Our QA Programme",
+    "ctaBannerTitle": "Interested in stocking Bawari Group rice?",
+    "ctaBannerSubtitle": "Whether you're a retailer, distributor, or food-service buyer, we'd like to hear from you.",
+    "ctaBannerButton": "Contact Us"
   },
-  "Services": {
-    "eyebrow": "Services",
-    "title": "Services built for ecommerce brands",
-    "subtitle": "Choose a single service or a full engagement — we tailor scope to what your store needs.",
-    "items": [
-      { "title": "Store setup & migration", "description": "Launch a new store or migrate an existing one to a modern ecommerce platform with minimal downtime." },
-      { "title": "Platform development", "description": "Custom storefront development and integrations on Shopify, WooCommerce, and headless stacks." },
-      { "title": "Digital marketing & growth", "description": "Paid, organic, and lifecycle marketing programs designed to grow qualified traffic and repeat purchases." },
-      { "title": "Conversion rate optimization", "description": "UX audits, A/B testing, and checkout optimization to turn more visitors into customers." },
-      { "title": "Ongoing support & maintenance", "description": "Reliable, responsive support to keep your store fast, secure, and up to date." }
+  "Products": {
+    "eyebrow": "Products & Services",
+    "title": "Premium Basmati, From Pakistan's Rice Belt",
+    "tagline": "Rice, sourced and shipped with precision.",
+    "subtitle": "Sourced from Central Punjab and Sindh, including the Kallar tract long associated with premium Super Basmati cultivation.",
+    "portfolioTitle": "Rice Portfolio",
+    "portfolio": [
+      { "title": "Super Basmati", "badge": "Flagship variety", "description": "Pakistan's flagship export variety — the long, aromatic grain behind roughly 80% of the country's basmati exports to Europe." },
+      { "title": "Kernel Basmati", "badge": "EU tariff-eligible", "description": "The second EU-recognised Pakistani basmati variety, eligible for the same preferential import tariff as Super Basmati." },
+      { "title": "Sella (Parboiled) Basmati", "badge": "Parboiled", "description": "Parboiled before milling for a firmer bite and golden colour — the choice of buyers and kitchens who prefer parboiled grain." },
+      { "title": "Steam Basmati", "badge": "Retail-friendly", "description": "Steam-treated for a cleaner, whiter grain and shorter cooking time — suited to retail buyers who value consistency." },
+      { "title": "Brown Basmati", "badge": "Health-oriented", "description": "Milled less to keep the bran layer intact, for health-oriented buyers who want the basmati aroma with more fibre." },
+      { "title": "Long-Grain Non-Basmati Rice", "badge": "Value tier", "description": "A non-basmati long-grain option for price-sensitive food-service and wholesale demand outside the basmati category." }
+    ],
+    "packagingTitle": "Packaging & Formats",
+    "packaging": [
+      { "title": "Retail", "description": "1kg, 5kg, and 10kg Heritage Crest branded consumer bags for grocery shelves and e-commerce." },
+      { "title": "Food Service", "description": "25kg and 50kg bulk sacks for HORECA, caterers, and cash-and-carry wholesale." },
+      { "title": "Private Label", "badge": "Your brand or ours", "description": "Unbranded or partner-branded packaging, packed to your specification." }
+    ],
+    "servicesTitle": "Services",
+    "services": [
+      { "title": "Import & Customs Handling", "description": "End-to-end management of EU border control, pre-notification, and customs clearance — handled for buyers who would rather not learn TRACES NT themselves." },
+      { "title": "Bulk Wholesale Supply", "description": "Container-scale supply to distributors and cash-and-carry operators." },
+      { "title": "Private-Label Packing", "description": "Retail or food-service packs under your brand, not ours." },
+      { "title": "Organic & Halal Lines", "badge": "Coming", "description": "Planned line extensions, in development." }
     ]
   },
-  "CaseStudies": {
-    "eyebrow": "Case studies",
-    "title": "Results for our clients",
-    "subtitle": "A selection of engagements — details to be added as case studies are published.",
-    "comingSoonTitle": "Case studies coming soon",
-    "comingSoonBody": "We're gathering results and testimonials from current engagements. Check back soon, or contact us for references."
+  "Quality": {
+    "eyebrow": "Quality & Compliance",
+    "title": "Compliance-First, By Design",
+    "subtitle": "Rice from South Asia sits inside one of the more heavily monitored corners of EU food law. We built our QA programme around exactly what EU border control checks.",
+    "sourcingTitle": "Sourced From Pakistan's Rice Belt",
+    "sourcingBody": "We source from Pakistan's established rice-growing regions in Central Punjab and Sindh, including the Kallar tract long associated with premium Super Basmati. Pakistan has been the EU's leading basmati supplier for much of 2019–2023, helped by a 2018 EU pesticide-residue rule change that favoured Pakistani basmati's typical compliance profile.",
+    "processTitle": "From Mill to Market",
+    "processCaption": "How Bawari Group imports basmati rice — Pakistan to Germany. Reference diagram (English).",
+    "programmeTitle": "Our QA Programme",
+    "programme": [
+      { "title": "Supplier Qualification", "description": "Mill and exporter audits, with GLOBALG.A.P./IFS status checked where available." },
+      { "title": "Pre-Shipment Testing", "description": "Accredited-lab testing against current EU pesticide and mycotoxin limits, before the container leaves Pakistan." },
+      { "title": "Documentation", "description": "Certificate of Authenticity, phytosanitary certificate, and commercial documents prepared in advance." },
+      { "title": "Border Entry", "description": "Every consignment pre-notified in the EU's TRACES NT system ahead of arrival at the Border Control Post." },
+      { "title": "Storage", "description": "Moisture- and pest-controlled warehousing with lot-level traceability coding." },
+      { "title": "Recall Readiness", "description": "A documented recall and withdrawal procedure, tied to lot codes and tested periodically." }
+    ],
+    "programmeCaption": "The QA programme at a glance. Reference diagram (English).",
+    "complianceNote": "EU food-safety regulation is a moving target. We verify current thresholds before every shipment — not a one-time checkbox."
   },
   "About": {
-    "eyebrow": "About us",
-    "title": "An ecommerce partner for international brands",
-    "body1": "We are a services team focused exclusively on ecommerce. We work with brands around the world to launch new stores, modernize existing ones, and drive sustainable growth.",
-    "body2": "Our team combines platform engineering, design, and marketing expertise so clients get one accountable partner instead of juggling multiple vendors.",
-    "missionTitle": "Our mission",
-    "missionBody": "To make world-class ecommerce capability accessible to growing international brands."
+    "eyebrow": "About Us",
+    "title": "A Heritage Crest for a Modern Trading House",
+    "body1": "Bawari Group is a Berlin- and Hamburg-based importer and distributor of premium Pakistani rice, built to serve Germany's fast-growing South Asian, Middle Eastern, Central Asian, and mainstream specialty-food consumer base.",
+    "body2": "Our identity is built around a heritage crest — a shield, a bold gold monogram, and a wheat-stalk wreath in charcoal and gold. The wheat motif is a deliberate nod to our roots in the rice trade, tying the mark directly to what we do.",
+    "modelTitle": "A Two-City Operating Model",
+    "cities": [
+      { "title": "Berlin", "role": "Commercial Headquarters", "description": "Brand, partnerships, sales leadership, and national account management, based in Germany's capital." },
+      { "title": "Hamburg", "role": "Logistics & Import Operations", "description": "Direct proximity to the Port of Hamburg — Germany's largest seaport and Northern Europe's leading hub for agricultural bulk cargo." }
+    ],
+    "leadershipTitle": "Founding Partners",
+    "leadershipRole": "Founding Partner",
+    "leadership": ["Siddiqui", "Umar Farooq", "Haji Malik"],
+    "missionTitle": "What We Stand For",
+    "missionBody": "Premium provenance, compliance rigour, and a German-market focus — not a generic bulk commodity importer."
   },
   "Contact": {
     "eyebrow": "Contact",
-    "title": "Let's talk about your store",
-    "subtitle": "Fill out the form and our team will get back to you within one business day.",
+    "title": "Let's Talk",
+    "subtitle": "Retailer, distributor, food-service buyer, or just curious about our rice? We'd like to hear from you.",
     "nameLabel": "Full name",
     "emailLabel": "Email",
-    "companyLabel": "Company",
+    "companyLabel": "Company / Organisation",
     "messageLabel": "How can we help?",
     "submit": "Send message",
     "submitting": "Sending...",

@@ -1,77 +1,124 @@
 {
   "Metadata": {
-    "title": "EcommerceServices — Wachstumspartner für Ecommerce",
-    "description": "Wir helfen internationalen Ecommerce-Marken, ihre Online-Shops zu starten, zu wachsen und zu skalieren."
+    "title": "Bawari Group — Premium pakistanischer Basmatireis für Deutschland",
+    "description": "Bawari Group importiert und vertreibt premium pakistanischen Basmatireis für die Diaspora-, Einzelhandels- und Gastronomiemärkte in Deutschland — mit Compliance von Anfang an, von Karachi bis ins deutsche Regal."
   },
   "LocaleSwitcher": {
     "label": "Sprache",
     "locale": "{locale, select, en {English} de {Deutsch} other {Unbekannt}}"
   },
   "Nav": {
-    "brand": "EcommerceServices",
+    "brand": "Bawari Group",
     "home": "Startseite",
-    "services": "Leistungen",
-    "caseStudies": "Fallstudien",
+    "products": "Produkte",
+    "quality": "Qualität",
     "about": "Über uns",
     "contact": "Kontakt",
     "cta": "Kontakt aufnehmen"
   },
   "Footer": {
-    "copyright": "© {year} EcommerceServices. Alle Rechte vorbehalten."
+    "tagline": "Premium pakistanischer Basmatireis, importiert für Deutschland.",
+    "copyright": "© {year} Bawari Group. Alle Rechte vorbehalten."
   },
   "Home": {
-    "heroEyebrow": "Ecommerce-Leistungen für internationale Marken",
-    "heroTitle": "Wir helfen Ecommerce-Unternehmen, zu starten, zu wachsen und zu skalieren.",
-    "heroSubtitle": "Vom Shop-Aufbau bis zum kontinuierlichen Wachstum — wir sind der Partner internationaler Ecommerce-Marken für Online-Shops, die konvertieren.",
-    "heroCtaPrimary": "Beratungstermin buchen",
-    "heroCtaSecondary": "Unsere Leistungen ansehen",
-    "servicesTitle": "Was wir tun",
-    "servicesSubtitle": "Ein fokussiertes Leistungsangebot für wachsende Ecommerce-Marken.",
-    "servicesCtaLabel": "Alle Leistungen ansehen",
-    "whyTitle": "Warum mit uns arbeiten",
-    "why": [
-      { "title": "Globale Erfahrung", "description": "Wir haben Ecommerce-Kunden in verschiedenen Regionen, Währungen und Sprachen unterstützt." },
-      { "title": "Ganzheitliche Betreuung", "description": "Von der Strategie über die Umsetzung bis zur laufenden Optimierung bleiben wir eingebunden." },
-      { "title": "Datenbasierte Entscheidungen", "description": "Jede Empfehlung basiert auf Leistungsdaten, nicht auf Vermutungen." }
+    "heroEyebrow": "Premium pakistanischer Basmati, importiert für Deutschland",
+    "heroTitle": "Ein Wappen mit Tradition für ein modernes Handelshaus.",
+    "heroSubtitle": "Bawari Group importiert und vertreibt premium pakistanischen Basmatireis und verbindet Pakistans Reisanbaugebiete mit den Diaspora-, Einzelhandels- und Gastronomiemärkten in Deutschland — mit Compliance von Anfang an.",
+    "heroCtaPrimary": "Kontakt aufnehmen",
+    "heroCtaSecondary": "Unseren Reis entdecken",
+    "modelTitle": "Ein Zwei-Städte-Betriebsmodell",
+    "modelSubtitle": "Berlin für die kaufmännische Führung, Hamburg für die Logistik — ein kürzerer, kontrollierbarer Weg vom Hafen Karachi bis ins deutsche Regal.",
+    "cities": [
+      { "title": "Berlin", "role": "Kaufmännischer Hauptsitz", "description": "Marke, Partnerschaften, Vertriebsleitung und nationales Kundenmanagement, in der deutschen Hauptstadt." },
+      { "title": "Hamburg", "role": "Logistik & Importbetrieb", "description": "Direkte Nähe zum Hamburger Hafen — Deutschlands größtem Seehafen und Nordeuropas führendem Umschlagplatz für landwirtschaftliche Massengüter." }
     ],
-    "ctaBannerTitle": "Bereit, Ihr Ecommerce-Geschäft auszubauen?",
-    "ctaBannerSubtitle": "Erzählen Sie uns von Ihrem Shop und Ihren Zielen — wir melden uns innerhalb eines Werktages.",
+    "segmentsTitle": "Wen wir beliefern",
+    "segmentsSubtitle": "Vom unabhängigen Diaspora-Lebensmittelhändler bis zum nationalen Einzelhandel — wir beliefern die Kanäle, die Reis in Deutschland bewegen.",
+    "segments": [
+      { "title": "Diaspora- & Spezialitätenhändler", "description": "Unabhängige afghanische, südasiatische, nahöstliche und türkische Lebensmittelhändler in Berlin, Hamburg, Frankfurt und dem Rhein-Ruhr-Gebiet." },
+      { "title": "Gastronomie & HORECA", "description": "Restaurants, Caterer und Cloud-Kitchens, die Wert auf Volumen, Konsistenz und zuverlässige Belieferung legen." },
+      { "title": "Großhandel & Cash & Carry", "description": "Der Standardweg in Gastronomie und unabhängigen Einzelhandel in ganz Deutschland." },
+      { "title": "Einzelhandel & Eigenmarke", "description": "Überregionale und regionale Händler, die Marken- oder Eigenmarkenreis suchen." }
+    ],
+    "networkCaption": "Sechs Kanäle, ausgehend von einer traditionsreichen Marke. Referenzdiagramm (Englisch).",
+    "qualityTitle": "Compliance von Anfang an — von Karachi bis ins Regal",
+    "qualitySubtitle": "Die EU-Lebensmittelvorschriften für Reis aus Südasien sind streng. Unser QS-Programm orientiert sich genau an dem, was die Grenzkontrolle tatsächlich prüft — kein generisches Pestizid-Screening.",
+    "qualityCtaLabel": "Unser QS-Programm ansehen",
+    "ctaBannerTitle": "Interesse, Bawari-Group-Reis zu führen?",
+    "ctaBannerSubtitle": "Ob Einzelhändler, Distributor oder Gastronomie-Einkäufer — wir freuen uns, von Ihnen zu hören.",
     "ctaBannerButton": "Kontakt aufnehmen"
   },
-  "Services": {
-    "eyebrow": "Leistungen",
-    "title": "Leistungen für Ecommerce-Marken",
-    "subtitle": "Wählen Sie eine einzelne Leistung oder ein Komplettpaket — wir passen den Umfang an die Bedürfnisse Ihres Shops an.",
-    "items": [
-      { "title": "Shop-Einrichtung & Migration", "description": "Starten Sie einen neuen Shop oder migrieren Sie einen bestehenden auf eine moderne Ecommerce-Plattform mit minimaler Ausfallzeit." },
-      { "title": "Plattformentwicklung", "description": "Individuelle Shop-Entwicklung und Integrationen auf Shopify, WooCommerce und Headless-Architekturen." },
-      { "title": "Digitales Marketing & Wachstum", "description": "Bezahlte, organische und lifecycle-basierte Marketingprogramme für mehr qualifizierten Traffic und Wiederholungskäufe." },
-      { "title": "Conversion-Optimierung", "description": "UX-Audits, A/B-Tests und Checkout-Optimierung, um mehr Besucher in Kunden zu verwandeln." },
-      { "title": "Laufender Support & Wartung", "description": "Zuverlässiger, reaktionsschneller Support, damit Ihr Shop schnell, sicher und aktuell bleibt." }
+  "Products": {
+    "eyebrow": "Produkte & Leistungen",
+    "title": "Premium-Basmati aus Pakistans Reisanbaugebieten",
+    "tagline": "Reis, mit Präzision bezogen und verschifft.",
+    "subtitle": "Bezogen aus Zentral-Punjab und Sindh, einschließlich der Kallar-Region, die traditionell für erstklassigen Super-Basmati bekannt ist.",
+    "portfolioTitle": "Reis-Portfolio",
+    "portfolio": [
+      { "title": "Super Basmati", "badge": "Flaggschiff-Sorte", "description": "Pakistans wichtigste Exportsorte — das lange, aromatische Korn hinter rund 80 % der pakistanischen Basmati-Exporte nach Europa." },
+      { "title": "Kernel Basmati", "badge": "EU-zollbegünstigt", "description": "Die zweite EU-anerkannte pakistanische Basmatisorte, berechtigt für denselben Zollvorteil wie Super Basmati." },
+      { "title": "Sella (parboiled) Basmati", "badge": "Parboiled", "description": "Vor dem Mahlen parboiled für einen festeren Biss und eine goldene Farbe — die Wahl von Käufern und Küchen, die parboiled Reis bevorzugen." },
+      { "title": "Steam Basmati", "badge": "Einzelhandelsfreundlich", "description": "Dampfbehandelt für ein reineres, weißeres Korn und kürzere Kochzeit — geeignet für Einzelhändler, die auf Konsistenz Wert legen." },
+      { "title": "Brown Basmati", "badge": "Gesundheitsorientiert", "description": "Weniger vermahlen, um die Kleieschicht zu erhalten — für gesundheitsbewusste Käufer, die das Basmati-Aroma mit mehr Ballaststoffen wünschen." },
+      { "title": "Langkornreis (nicht Basmati)", "badge": "Einstiegssegment", "description": "Eine Nicht-Basmati-Langkornoption für preissensible Nachfrage im Gastronomie- und Großhandelsbereich außerhalb der Basmati-Kategorie." }
+    ],
+    "packagingTitle": "Verpackung & Formate",
+    "packaging": [
+      { "title": "Einzelhandel", "description": "1 kg, 5 kg und 10 kg Verbraucherbeutel mit der Heritage-Crest-Marke, für den Lebensmittelhandel und E-Commerce." },
+      { "title": "Gastronomie", "description": "25 kg und 50 kg Sackware für HORECA, Caterer und Cash-and-Carry-Großhandel." },
+      { "title": "Eigenmarke", "badge": "Ihre Marke oder unsere", "description": "Unbeschriftete oder partnermarkierte Verpackung, gepackt nach Ihren Vorgaben." }
+    ],
+    "servicesTitle": "Leistungen",
+    "services": [
+      { "title": "Import- & Zollabwicklung", "description": "Vollständige Abwicklung von EU-Grenzkontrolle, Vorabmeldung und Zollabfertigung — für Käufer, die sich nicht selbst in TRACES NT einarbeiten möchten." },
+      { "title": "Großhandelsbelieferung", "description": "Containerweise Belieferung von Distributoren und Cash-and-Carry-Betreibern." },
+      { "title": "Eigenmarken-Abpackung", "description": "Einzelhandels- oder Gastronomiepackungen unter Ihrer Marke, nicht unserer." },
+      { "title": "Bio- und Halal-Linien", "badge": "Demnächst", "description": "Geplante zertifizierte Produktlinien, derzeit in Entwicklung." }
     ]
   },
-  "CaseStudies": {
-    "eyebrow": "Fallstudien",
-    "title": "Ergebnisse für unsere Kunden",
-    "subtitle": "Eine Auswahl an Projekten — Details werden ergänzt, sobald Fallstudien veröffentlicht werden.",
-    "comingSoonTitle": "Fallstudien folgen in Kürze",
-    "comingSoonBody": "Wir sammeln gerade Ergebnisse und Erfahrungsberichte aus laufenden Projekten. Schauen Sie bald wieder vorbei oder kontaktieren Sie uns für Referenzen."
+  "Quality": {
+    "eyebrow": "Qualität & Compliance",
+    "title": "Compliance von Grund auf",
+    "subtitle": "Reis aus Südasien unterliegt einem der am stärksten überwachten Bereiche des EU-Lebensmittelrechts. Unser QS-Programm orientiert sich genau an dem, was die EU-Grenzkontrolle tatsächlich prüft.",
+    "sourcingTitle": "Bezogen aus Pakistans Reisanbaugebieten",
+    "sourcingBody": "Wir beziehen aus Pakistans etablierten Reisanbaugebieten in Zentral-Punjab und Sindh, einschließlich der Kallar-Region, die traditionell für erstklassigen Super-Basmati bekannt ist. Pakistan war über weite Strecken der Jahre 2019–2023 der führende Basmati-Lieferant der EU — begünstigt durch eine EU-Regeländerung zu Pestizidrückständen aus dem Jahr 2018, die dem typischen Compliance-Profil pakistanischen Basmatis zugutekam.",
+    "processTitle": "Von der Mühle zum Markt",
+    "processCaption": "Wie Bawari Group Basmatireis importiert — von Pakistan nach Deutschland. Referenzdiagramm (Englisch).",
+    "programmeTitle": "Unser QS-Programm",
+    "programme": [
+      { "title": "Lieferantenqualifizierung", "description": "Mühlen- und Exporteur-Audits, mit Prüfung des GLOBALG.A.P.-/IFS-Status, sofern verfügbar." },
+      { "title": "Vorversandprüfung", "description": "Prüfung durch akkreditierte Labore gegen aktuelle EU-Grenzwerte für Pestizide und Mykotoxine, bevor der Container Pakistan verlässt." },
+      { "title": "Dokumentation", "description": "Echtheitszertifikat, Pflanzengesundheitszeugnis und Handelsdokumente werden im Voraus vorbereitet." },
+      { "title": "Grenzeinfuhr", "description": "Jede Sendung wird vorab im EU-System TRACES NT gemeldet, bevor sie an der Grenzkontrollstelle eintrifft." },
+      { "title": "Lagerung", "description": "Feuchtigkeits- und schädlingskontrollierte Lagerung mit chargengenauer Rückverfolgbarkeit." },
+      { "title": "Rückrufbereitschaft", "description": "Ein dokumentiertes, an Chargencodes gebundenes Rückruf- und Rücknahmeverfahren, das regelmäßig getestet wird." }
+    ],
+    "programmeCaption": "Das QS-Programm auf einen Blick. Referenzdiagramm (Englisch).",
+    "complianceNote": "EU-Lebensmittelvorschriften ändern sich fortlaufend. Wir prüfen die aktuellen Grenzwerte vor jeder Lieferung — kein einmaliger Haken auf einer Liste."
   },
   "About": {
     "eyebrow": "Über uns",
-    "title": "Ein Ecommerce-Partner für internationale Marken",
-    "body1": "Wir sind ein Serviceteam, das sich ausschließlich auf Ecommerce konzentriert. Wir arbeiten mit Marken auf der ganzen Welt zusammen, um neue Shops zu starten, bestehende zu modernisieren und nachhaltiges Wachstum voranzutreiben.",
-    "body2": "Unser Team vereint Plattform-Engineering, Design und Marketing-Expertise, sodass Kunden einen verantwortlichen Partner haben, statt mehrere Anbieter koordinieren zu müssen.",
-    "missionTitle": "Unsere Mission",
-    "missionBody": "Erstklassige Ecommerce-Fähigkeiten für wachsende internationale Marken zugänglich zu machen."
+    "title": "Ein Wappen mit Tradition für ein modernes Handelshaus",
+    "body1": "Bawari Group ist ein in Berlin und Hamburg ansässiger Importeur und Distributor von premium pakistanischem Reis, aufgebaut, um Deutschlands wachsende südasiatische, nahöstliche, zentralasiatische und mainstream Spezialitäten-Konsumentenbasis zu bedienen.",
+    "body2": "Unsere Identität basiert auf einem Wappen mit Tradition — einem Schild, einem markanten goldenen Monogramm und einem Ährenkranz in Anthrazit und Gold. Das Ährenmotiv ist eine bewusste Anspielung auf unsere Wurzeln im Reishandel und verbindet das Zeichen direkt mit unserem Geschäft.",
+    "modelTitle": "Ein Zwei-Städte-Betriebsmodell",
+    "cities": [
+      { "title": "Berlin", "role": "Kaufmännischer Hauptsitz", "description": "Marke, Partnerschaften, Vertriebsleitung und nationales Kundenmanagement, in der deutschen Hauptstadt." },
+      { "title": "Hamburg", "role": "Logistik & Importbetrieb", "description": "Direkte Nähe zum Hamburger Hafen — Deutschlands größtem Seehafen und Nordeuropas führendem Umschlagplatz für landwirtschaftliche Massengüter." }
+    ],
+    "leadershipTitle": "Gründungspartner",
+    "leadershipRole": "Gründungspartner",
+    "leadership": ["Siddiqui", "Umar Farooq", "Haji Malik"],
+    "missionTitle": "Wofür wir stehen",
+    "missionBody": "Erstklassige Herkunft, Compliance-Strenge und Fokus auf den deutschen Markt — kein generischer Massenwaren-Importeur."
   },
   "Contact": {
     "eyebrow": "Kontakt",
-    "title": "Lassen Sie uns über Ihren Shop sprechen",
-    "subtitle": "Füllen Sie das Formular aus, und unser Team meldet sich innerhalb eines Werktages bei Ihnen.",
+    "title": "Lassen Sie uns sprechen",
+    "subtitle": "Händler, Distributor, Gastronomie-Einkäufer oder einfach neugierig auf unseren Reis? Wir freuen uns, von Ihnen zu hören.",
     "nameLabel": "Vollständiger Name",
     "emailLabel": "E-Mail",
-    "companyLabel": "Unternehmen",
+    "companyLabel": "Unternehmen / Organisation",
     "messageLabel": "Wie können wir helfen?",
     "submit": "Nachricht senden",
     "submitting": "Wird gesendet...",
