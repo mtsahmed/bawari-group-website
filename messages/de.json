@@ -22,8 +22,8 @@
   },
   "Home": {
     "heroEyebrow": "Premium pakistanischer Basmati, importiert für Deutschland",
-    "heroTitle": "Ein Wappen mit Tradition für ein modernes Handelshaus.",
-    "heroSubtitle": "Bawari Group importiert und vertreibt premium pakistanischen Basmatireis und verbindet Pakistans Reisanbaugebiete mit den Diaspora-, Einzelhandels- und Gastronomiemärkten in Deutschland — mit Compliance von Anfang an.",
+    "heroTitle": "Wir importieren den Reis, den Ihre Geschmacksnerven wirklich lieben.",
+    "heroSubtitle": "Bawari Group importiert und vertreibt premium pakistanischen <gold>Basmatireis</gold> und verbindet Pakistans Reisanbaugebiete mit den Diaspora-, Einzelhandels- und Gastronomiemärkten in Deutschland — mit Compliance von Anfang an.",
     "heroCtaPrimary": "Kontakt aufnehmen",
     "heroCtaSecondary": "Unseren Reis entdecken",
     "modelTitle": "Ein Zwei-Städte-Betriebsmodell",
@@ -53,6 +53,7 @@
     "title": "Premium-Basmati aus Pakistans Reisanbaugebieten",
     "tagline": "Reis, mit Präzision bezogen und verschifft.",
     "subtitle": "Bezogen aus Zentral-Punjab und Sindh, einschließlich der Kallar-Region, die traditionell für erstklassigen Super-Basmati bekannt ist.",
+    "heroBadges": ["6 Reissorten", "Vom Einzelhandel bis Großhandel", "Eigenmarke möglich"],
     "portfolioTitle": "Reis-Portfolio",
     "portfolio": [
       { "title": "Super Basmati", "badge": "Flaggschiff-Sorte", "description": "Pakistans wichtigste Exportsorte — das lange, aromatische Korn hinter rund 80 % der pakistanischen Basmati-Exporte nach Europa." },
@@ -82,6 +83,8 @@
     "subtitle": "Reis aus Südasien unterliegt einem der am stärksten überwachten Bereiche des EU-Lebensmittelrechts. Unser QS-Programm orientiert sich genau an dem, was die EU-Grenzkontrolle tatsächlich prüft.",
     "sourcingTitle": "Bezogen aus Pakistans Reisanbaugebieten",
     "sourcingBody": "Wir beziehen aus Pakistans etablierten Reisanbaugebieten in Zentral-Punjab und Sindh, einschließlich der Kallar-Region, die traditionell für erstklassigen Super-Basmati bekannt ist. Pakistan war über weite Strecken der Jahre 2019–2023 der führende Basmati-Lieferant der EU — begünstigt durch eine EU-Regeländerung zu Pestizidrückständen aus dem Jahr 2018, die dem typischen Compliance-Profil pakistanischen Basmatis zugutekam.",
+    "routeTitle": "Die Lieferkettenroute",
+    "routeCaption": "Karatschi nach Hamburg über den Suezkanal — die Container-Schifffahrtsroute hinter jeder Lieferung. Ca. 12.000 km, 4–5 Wochen Transitzeit.",
     "processTitle": "Von der Mühle zum Markt",
     "processCaption": "Wie Bawari Group Basmatireis importiert — von Pakistan nach Deutschland. Referenzdiagramm (Englisch).",
     "programmeTitle": "Unser QS-Programm",
@@ -124,6 +127,6 @@
     "submitting": "Wird gesendet...",
     "successTitle": "Danke — wir haben Ihre Nachricht erhalten.",
     "successBody": "Wir melden uns innerhalb eines Werktages bei Ihnen.",
-    "formNote": "Dieses Formular ist noch nicht mit einem E-Mail-/CRM-System verbunden — Einsendungen werden nicht zugestellt."
+    "errorMessage": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt eine E-Mail."
   }
 }

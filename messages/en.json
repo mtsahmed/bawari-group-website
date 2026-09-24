@@ -22,8 +22,8 @@
   },
   "Home": {
     "heroEyebrow": "Premium Pakistani Basmati, Imported for Germany",
-    "heroTitle": "A heritage crest for a modern trading house.",
-    "heroSubtitle": "Bawari Group imports and distributes premium Pakistani basmati rice, connecting Pakistan's rice belt to Germany's diaspora, retail, and food-service markets — with compliance built in from the start.",
+    "heroTitle": "We import the rice that your taste buds really like.",
+    "heroSubtitle": "Bawari Group imports and distributes premium Pakistani <gold>Basmati Rice</gold>, connecting Pakistan's rice belt to Germany's diaspora, retail, and food-service markets — with compliance built in from the start.",
     "heroCtaPrimary": "Get in Touch",
     "heroCtaSecondary": "Explore Our Rice",
     "modelTitle": "A Two-City Operating Model",
@@ -53,6 +53,7 @@
     "title": "Premium Basmati, From Pakistan's Rice Belt",
     "tagline": "Rice, sourced and shipped with precision.",
     "subtitle": "Sourced from Central Punjab and Sindh, including the Kallar tract long associated with premium Super Basmati cultivation.",
+    "heroBadges": ["6 rice varieties", "Retail to bulk", "Private label available"],
     "portfolioTitle": "Rice Portfolio",
     "portfolio": [
       { "title": "Super Basmati", "badge": "Flagship variety", "description": "Pakistan's flagship export variety — the long, aromatic grain behind roughly 80% of the country's basmati exports to Europe." },
@@ -82,6 +83,8 @@
     "subtitle": "Rice from South Asia sits inside one of the more heavily monitored corners of EU food law. We built our QA programme around exactly what EU border control checks.",
     "sourcingTitle": "Sourced From Pakistan's Rice Belt",
     "sourcingBody": "We source from Pakistan's established rice-growing regions in Central Punjab and Sindh, including the Kallar tract long associated with premium Super Basmati. Pakistan has been the EU's leading basmati supplier for much of 2019–2023, helped by a 2018 EU pesticide-residue rule change that favoured Pakistani basmati's typical compliance profile.",
+    "routeTitle": "The Supply Chain Route",
+    "routeCaption": "Karachi to Hamburg via the Suez Canal — the container shipping lane behind every shipment. Approx. 12,000km, 4–5 weeks transit.",
     "processTitle": "From Mill to Market",
     "processCaption": "How Bawari Group imports basmati rice — Pakistan to Germany. Reference diagram (English).",
     "programmeTitle": "Our QA Programme",
@@ -124,6 +127,6 @@
     "submitting": "Sending...",
     "successTitle": "Thanks — we've received your message.",
     "successBody": "We'll be in touch within one business day.",
-    "formNote": "This form isn't connected to an email/CRM backend yet — submissions are not delivered."
+    "errorMessage": "Something went wrong sending your message. Please try again, or email us directly."
   }
 }

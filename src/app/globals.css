@@ -9,6 +9,11 @@
   --brand-charcoal-light: #343b3c; /* Charcoal Slate — secondary shield tone */
   --brand-gold: #c99a50; /* Heritage Gold — primary accent */
   --brand-gold-dark: #a4793b; /* Antique Gold — secondary accent */
+  --brand-magenta-gold: #b8636f; /* Magenta Gold — premium rose-toned accent */
+  --brand-magenta-gold-dark: #934f59; /* Magenta Gold, darkened — hover/emphasis */
+  --brand-gradient-magenta: #c4006a; /* Gradient stop, sampled from tiffany color palette reference */
+  --brand-gradient-orange: #ff793d; /* Gradient stop, sampled from tiffany color palette reference */
+  --brand-gradient-gold: #ffd166; /* Gradient stop, sampled from tiffany color palette reference */
   --brand-cream: #fffeef; /* Parchment Cream — wordmark only, needs a dark field */
   --brand-neutral: #f3f2ee; /* Soft Neutral — UI cards, light-theme surfaces */
   --brand-dark-start: #262a30; /* Premium Dark gradient start */
@@ -22,6 +27,8 @@
   --color-brand-charcoal-light: var(--brand-charcoal-light);
   --color-brand-gold: var(--brand-gold);
   --color-brand-gold-dark: var(--brand-gold-dark);
+  --color-brand-magenta-gold: var(--brand-magenta-gold);
+  --color-brand-magenta-gold-dark: var(--brand-magenta-gold-dark);
   --color-brand-cream: var(--brand-cream);
   --color-brand-neutral: var(--brand-neutral);
   --font-serif: var(--font-eb-garamond);
@@ -32,4 +39,20 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+}
+
+.text-gradient-magenta-gold {
+  background-image: linear-gradient(
+    90deg,
+    var(--brand-gradient-magenta) 0%,
+    var(--brand-gradient-orange) 55%,
+    var(--brand-gradient-gold) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.text-metallic-gold {
+  color: var(--brand-gold);
 }

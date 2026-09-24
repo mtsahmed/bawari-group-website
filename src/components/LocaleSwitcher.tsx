@@ -22,12 +22,12 @@ export default function LocaleSwitcher() {
   }
 
   return (
-    <label className="inline-flex items-center gap-2 text-sm">
+    <label className="inline-flex items-center gap-2 text-base">
       <span className="sr-only">{t("label")}</span>
       <select
         value={locale}
         onChange={onChange}
-        className="rounded-md border border-brand-charcoal/20 bg-white px-2 py-1 text-sm text-brand-charcoal"
+        className="rounded-md border border-brand-charcoal/20 bg-white px-2 py-1 text-base text-brand-charcoal"
       >
         {routing.locales.map((loc) => (
           <option key={loc} value={loc}>

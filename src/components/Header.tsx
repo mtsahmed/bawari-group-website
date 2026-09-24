@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <header className="border-b border-brand-charcoal/10 bg-white">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+      <div className="mx-auto flex max-w-[90rem] items-center justify-between px-6 py-4 sm:px-8 lg:px-12">
         <Link href="/" className="flex items-center gap-3">
           <Image
             src="/brand/bawari-crest.png"
@@ -26,7 +26,7 @@ export default function Header() {
             className="h-10 w-auto"
             priority
           />
-          <span className="font-serif text-lg font-semibold tracking-tight text-brand-charcoal">
+          <span className="font-serif text-[24px] font-semibold tracking-tight text-brand-charcoal">
             {t("brand")}
           </span>
         </Link>
@@ -35,7 +35,7 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm text-brand-charcoal/70 transition-colors hover:text-brand-gold-dark"
+              className="text-base text-brand-charcoal/70 transition-colors hover:text-brand-gold-dark"
             >
               {link.label}
             </Link>
@@ -45,7 +45,7 @@ export default function Header() {
           <LocaleSwitcher />
           <Link
             href="/contact"
-            className="rounded-md bg-brand-charcoal px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-brand-gold-dark"
+            className="rounded-md bg-brand-charcoal px-4 py-2 text-base font-medium text-white transition-colors hover:bg-brand-gold-dark"
           >
             {t("cta")}
           </Link>
