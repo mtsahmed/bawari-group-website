@@ -9,9 +9,11 @@ export default async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   if (pathname.startsWith("/admin")) {
-    // /admin/auth/confirm handles the password-reset email link before
-    // any session exists yet — it establishes one itself via verifyOtp.
-    if (pathname === "/admin/login" || pathname.startsWith("/admin/auth/")) {
+    // /admin/reset-password is reached via the password-reset email link
+    // before any session cookie exists yet — Supabase's client library
+    // establishes the session client-side from the URL fragment tokens
+    // once the page loads, so the middleware can't check for one here.
+    if (pathname === "/admin/login" || pathname === "/admin/reset-password") {
       return NextResponse.next();
     }
 
