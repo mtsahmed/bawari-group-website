@@ -23,9 +23,16 @@
   "Home": {
     "heroEyebrow": "Premium Pakistani Basmati, Imported for Germany",
     "heroTitle": "We import the rice that your taste buds really like.",
-    "heroSubtitle": "Bawari Group imports and distributes premium Pakistani <gold>Basmati Rice</gold>, connecting Pakistan's rice belt to Germany's diaspora, retail, and food-service markets — with compliance built in from the start.",
+    "heroSubtitle": "Premium Pakistani <gold>Basmati Rice</gold>, pre-cleared for EU border control before it ever leaves Pakistan — so your shipment moves, not sits in customs. Serving Germany's diaspora, retail, and food-service markets.",
     "heroCtaPrimary": "Get in Touch",
     "heroCtaSecondary": "Explore Our Rice",
+    "valueStackEyebrow": "Why Bawari Group",
+    "valueStack": [
+      { "title": "EU-Compliant From Day One", "description": "Every shipment pre-tested and documented before it leaves Pakistan — no surprises at German customs." },
+      { "title": "Two-City Control", "description": "Berlin commercial leadership plus Hamburg logistics: a shorter, more accountable supply chain than importers running it remotely." },
+      { "title": "Full Product Range", "description": "Super Basmati, Kernel Basmati, Sella, Steam, and Brown, plus long-grain non-basmati — one supplier for your entire rice category." },
+      { "title": "Built for Every Channel", "description": "Diaspora grocers, HORECA, wholesale, and private label — flexible formats and volumes to match how you sell." }
+    ],
     "modelTitle": "A Two-City Operating Model",
     "modelSubtitle": "Berlin for commercial leadership, Hamburg for logistics — a shorter, more controllable path from Karachi port to German shelf.",
     "cities": [
@@ -44,9 +51,9 @@
     "qualityTitle": "Compliance-First, From Karachi to Shelf",
     "qualitySubtitle": "EU food-safety rules on rice from South Asia are strict. Our QA programme is built around exactly what border control checks — not a generic pesticide panel.",
     "qualityCtaLabel": "See Our QA Programme",
-    "ctaBannerTitle": "Interested in stocking Bawari Group rice?",
-    "ctaBannerSubtitle": "Whether you're a retailer, distributor, or food-service buyer, we'd like to hear from you.",
-    "ctaBannerButton": "Contact Us"
+    "ctaBannerTitle": "Ready to Add Compliance-Ready Basmati to Your Shelf?",
+    "ctaBannerSubtitle": "Retailers, distributors, and food-service buyers — tell us what you need, and skip the import headache.",
+    "ctaBannerButton": "Get in Touch"
   },
   "Products": {
     "eyebrow": "Products & Services",

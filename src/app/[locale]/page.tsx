@@ -9,11 +9,13 @@ export function generateStaticParams() {
 
 type City = { title: string; role: string; description: string };
 type Segment = { title: string; description: string };
+type ValueStackItem = { title: string; description: string };
 
 export default async function HomePage() {
   const t = await getTranslations("Home");
   const cities = t.raw("cities") as City[];
   const segments = t.raw("segments") as Segment[];
+  const valueStack = t.raw("valueStack") as ValueStackItem[];
 
   return (
     <div>
@@ -46,6 +48,27 @@ export default async function HomePage() {
           >
             {t("heroCtaSecondary")}
           </Link>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-[90rem] px-6 pb-20 sm:px-8 lg:px-12">
+        <p className="text-center text-sm font-semibold tracking-wide text-brand-gold-dark uppercase">
+          {t("valueStackEyebrow")}
+        </p>
+        <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          {valueStack.map((item) => (
+            <div key={item.title}>
+              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-brand-gold/15 text-brand-gold-dark">
+                ✓
+              </span>
+              <h3 className="mt-3 text-lg font-semibold text-brand-charcoal">
+                {item.title}
+              </h3>
+              <p className="mt-2 text-base text-brand-charcoal/70">
+                {item.description}
+              </p>
+            </div>
+          ))}
         </div>
       </section>
 

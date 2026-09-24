@@ -23,9 +23,16 @@
   "Home": {
     "heroEyebrow": "Premium pakistanischer Basmati, importiert für Deutschland",
     "heroTitle": "Wir importieren den Reis, den Ihre Geschmacksnerven wirklich lieben.",
-    "heroSubtitle": "Bawari Group importiert und vertreibt premium pakistanischen <gold>Basmatireis</gold> und verbindet Pakistans Reisanbaugebiete mit den Diaspora-, Einzelhandels- und Gastronomiemärkten in Deutschland — mit Compliance von Anfang an.",
+    "heroSubtitle": "Premium pakistanischer <gold>Basmatireis</gold>, bereits vor dem Verlassen Pakistans für die EU-Grenzkontrolle freigegeben — damit Ihre Lieferung durchläuft, statt im Zoll festzuhängen. Für Deutschlands Diaspora-, Einzelhandels- und Gastronomiemärkte.",
     "heroCtaPrimary": "Kontakt aufnehmen",
     "heroCtaSecondary": "Unseren Reis entdecken",
+    "valueStackEyebrow": "Warum Bawari Group",
+    "valueStack": [
+      { "title": "EU-konform ab dem ersten Tag", "description": "Jede Lieferung wird vor Verlassen Pakistans geprüft und dokumentiert — keine Überraschungen beim deutschen Zoll." },
+      { "title": "Kontrolle durch zwei Standorte", "description": "Kaufmännische Führung in Berlin, Logistik in Hamburg: eine kürzere, nachvollziehbarere Lieferkette als bei Importeuren mit Fernsteuerung." },
+      { "title": "Volles Sortiment", "description": "Super Basmati, Kernel Basmati, Sella, Steam und Brown sowie langkörniger Nicht-Basmati-Reis — ein Lieferant für Ihre gesamte Reiskategorie." },
+      { "title": "Für jeden Vertriebskanal", "description": "Diaspora-Händler, Gastronomie, Großhandel und Eigenmarke — flexible Formate und Mengen, passend zu Ihrem Vertrieb." }
+    ],
     "modelTitle": "Ein Zwei-Städte-Betriebsmodell",
     "modelSubtitle": "Berlin für die kaufmännische Führung, Hamburg für die Logistik — ein kürzerer, kontrollierbarer Weg vom Hafen Karachi bis ins deutsche Regal.",
     "cities": [
@@ -44,8 +51,8 @@
     "qualityTitle": "Compliance von Anfang an — von Karachi bis ins Regal",
     "qualitySubtitle": "Die EU-Lebensmittelvorschriften für Reis aus Südasien sind streng. Unser QS-Programm orientiert sich genau an dem, was die Grenzkontrolle tatsächlich prüft — kein generisches Pestizid-Screening.",
     "qualityCtaLabel": "Unser QS-Programm ansehen",
-    "ctaBannerTitle": "Interesse, Bawari-Group-Reis zu führen?",
-    "ctaBannerSubtitle": "Ob Einzelhändler, Distributor oder Gastronomie-Einkäufer — wir freuen uns, von Ihnen zu hören.",
+    "ctaBannerTitle": "Bereit für zollkonformen Basmati in Ihrem Regal?",
+    "ctaBannerSubtitle": "Einzelhändler, Distributoren und Gastronomie-Einkäufer — sagen Sie uns, was Sie brauchen, ganz ohne Import-Aufwand.",
     "ctaBannerButton": "Kontakt aufnehmen"
   },
   "Products": {
