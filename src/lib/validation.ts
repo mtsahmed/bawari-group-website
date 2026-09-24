@@ -16,6 +16,7 @@ export const B2B_SEGMENTS = ["food_service_horeca", "private_label_b2b"] as cons
 export const LEAD_STATUSES = [
   "new",
   "contacted",
+  "meeting",
   "qualified",
   "won",
   "lost",

@@ -17,9 +17,21 @@ export const B2B_SEGMENT_LABELS: Record<string, string> = {
 export const STATUS_LABELS: Record<string, string> = {
   new: "New",
   contacted: "Contacted",
+  meeting: "Meeting",
   qualified: "Qualified",
   won: "Won",
   lost: "Lost",
+};
+
+// Semantic accent per status, used for the status pill/dropdown in the
+// leads table — brand charcoal/gold stays primary everywhere else.
+export const STATUS_COLORS: Record<string, string> = {
+  new: "bg-brand-neutral text-brand-charcoal",
+  contacted: "bg-brand-gold/20 text-brand-gold-dark",
+  meeting: "bg-sky-100 text-sky-700",
+  qualified: "bg-emerald-100 text-emerald-700",
+  won: "bg-emerald-600 text-white",
+  lost: "bg-red-100 text-red-700",
 };
 
 export const SOURCE_LABELS: Record<string, string> = {

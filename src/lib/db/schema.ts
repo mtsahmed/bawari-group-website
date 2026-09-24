@@ -20,6 +20,7 @@ export const segmentEnum = pgEnum("segment", [
 export const leadStatusEnum = pgEnum("lead_status", [
   "new",
   "contacted",
+  "meeting",
   "qualified",
   "won",
   "lost",
