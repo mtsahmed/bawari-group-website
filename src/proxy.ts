@@ -9,7 +9,9 @@ export default async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   if (pathname.startsWith("/admin")) {
-    if (pathname === "/admin/login") {
+    // /admin/auth/confirm handles the password-reset email link before
+    // any session exists yet — it establishes one itself via verifyOtp.
+    if (pathname === "/admin/login" || pathname.startsWith("/admin/auth/")) {
       return NextResponse.next();
     }
 
