@@ -58,7 +58,7 @@ export default async function HomePage() {
         src="/brand/bawari-story.mp4"
       />
 
-      <section className="mx-auto max-w-[90rem] px-6 pb-20 sm:px-8 lg:px-12">
+      <section className="mx-auto max-w-[90rem] px-6 py-20 sm:px-8 lg:px-12">
         <p className="text-center text-sm font-semibold tracking-wide text-brand-gold-dark uppercase">
           {t("valueStackEyebrow")}
         </p>
