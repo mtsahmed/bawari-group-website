@@ -69,6 +69,7 @@ A separate internal tool (`src/app/admin/**`) for the client to manage B2B/B2C c
 - [x] Deployment — live on Vercel at https://bawari-group-website.vercel.app, auto-deploys from `master` via GitHub
 - [x] Admin panel forgot-password flow (see Admin Panel / CRM section for the Gmail link-prescanning caveat)
 - [x] Homepage marketing polish — sharpened hero subtitle, "Why Bawari Group" value-stack section, tightened final CTA banner (deferred from 2026-09-21 until the admin panel was done)
+- [x] Homepage brand video section (`src/components/BrandVideoSection.tsx`) — full-bleed autoplay/muted background video between the hero and "Why Bawari Group", lazy-loaded and paused off-screen, re-encoded from the client's 49MB source down to ~7MB (libx264 CRF 26, no audio track)
 - [ ] Not used — explicitly excluded per client direction: `Bawari Group Logo - Option 2 (Heritage Crest).png` (superseded logo option, reference only)
 - [ ] Not yet used: `brand-assets/documents/Bawari Supplier Control Process webpage/` — a separate Claude Design canvas artifact (interactive `.dc.html` + `support.js`, not a static image) covering supplier-control/due-diligence content that overlaps with the QA Programme infographic already in use. Skipped for now rather than attempting a complex extraction; flag if this should be pulled in too.
 - [ ] Founding partner roles/bios (currently names only, per client direction)
