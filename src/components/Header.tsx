@@ -3,6 +3,7 @@ import NextLink from "next/link";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import LocaleSwitcher from "./LocaleSwitcher";
+import MobileNav from "./MobileNav";
 
 export default function Header() {
   const t = useTranslations("Nav");
@@ -16,7 +17,7 @@ export default function Header() {
   ] as const;
 
   return (
-    <header className="border-b border-brand-charcoal/10 bg-white">
+    <header className="relative border-b border-brand-charcoal/10 bg-white">
       <div className="mx-auto flex max-w-[90rem] items-center justify-between px-6 py-4 sm:px-8 lg:px-12">
         <Link href="/" className="flex items-center gap-3">
           <Image
@@ -59,6 +60,7 @@ export default function Header() {
           >
             Admin Dashboard
           </NextLink>
+          <MobileNav links={links} />
         </div>
       </div>
     </header>
