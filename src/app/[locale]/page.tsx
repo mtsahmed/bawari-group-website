@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
+import BrandVideoSection from "@/components/BrandVideoSection";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 
@@ -50,6 +51,12 @@ export default async function HomePage() {
           </Link>
         </div>
       </section>
+
+      <BrandVideoSection
+        title={t("videoTitle")}
+        subtitle={t("videoSubtitle")}
+        src="/brand/bawari-story.mp4"
+      />
 
       <section className="mx-auto max-w-[90rem] px-6 pb-20 sm:px-8 lg:px-12">
         <p className="text-center text-sm font-semibold tracking-wide text-brand-gold-dark uppercase">
