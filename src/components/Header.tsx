@@ -42,7 +42,7 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-        <div className="flex items-center gap-4">
+        <div className="flex flex-wrap items-center justify-end gap-x-4 gap-y-2">
           <LocaleSwitcher />
           <Link
             href="/contact"
@@ -55,7 +55,7 @@ export default function Header() {
               incorrectly prefix it (/en/admin/login). */}
           <NextLink
             href="/admin/login"
-            className="hidden text-sm font-medium text-brand-charcoal/50 underline decoration-brand-charcoal/30 underline-offset-4 transition-colors hover:text-brand-charcoal hover:decoration-brand-charcoal sm:inline"
+            className="inline text-sm font-medium text-brand-charcoal/50 underline decoration-brand-charcoal/30 underline-offset-4 transition-colors hover:text-brand-charcoal hover:decoration-brand-charcoal"
           >
             Admin Dashboard
           </NextLink>
